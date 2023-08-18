@@ -1,7 +1,9 @@
 body{
   margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
+/* #region header */
 .header {
   display: flex;
   flex-direction: column;
@@ -20,6 +22,8 @@ body{
   justify-content: space-between;
 }
 
+/* #endregion */
+/* #region menu */
 .menu {
   box-sizing: border-box;
   height: 100vh;
@@ -33,6 +37,7 @@ body{
   margin-bottom: 64px;
 }
 
+/* #endregion */
 .nav {
   display: flex;
   flex-direction: column;
