@@ -1,6 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   margin: 0;
   font-family: 'Inter', sans-serif;
+}
+
+section {
+  height: 800px;
 }
 
 /* #region header */
@@ -38,6 +46,7 @@ body{
 }
 
 /* #endregion */
+/* #region nav */
 .nav {
   display: flex;
   flex-direction: column;
@@ -53,3 +62,4 @@ body{
   text-transform: uppercase;
   text-decoration: none;
 }
+/* #endregion */
