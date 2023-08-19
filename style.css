@@ -2,14 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+  color: #292929;
 }
 
-section {
+/* section {
   height: 800px;
-}
+} */
 
 /* #region header */
 .header {
@@ -30,6 +31,16 @@ section {
   justify-content: space-between;
 }
 
+.header__title {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 48px;
+  line-height: 100%;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
+
 /* #endregion */
 /* #region menu */
 .menu {
@@ -43,7 +54,7 @@ section {
   box-sizing: border-box;
   height: 100vh;
   padding: 64px 120px;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .menu:target {
@@ -74,3 +85,36 @@ section {
   text-decoration: none;
 }
 /* #endregion */
+
+.main {
+  padding: 120px;
+}
+
+.recommended__title {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+
+.categories__title {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+
+.how-to-buy__title {
+  margin-top: 0;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+}
