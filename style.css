@@ -183,13 +183,36 @@ body {
 /* #endregion */
 
 /* #region how-to-buy */
+.how-to-buy {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+}
+
 .how-to-buy__title {
+  flex-basis: 50%;
   margin-top: 0;
   margin-bottom: 64px;
   font-size: 48px;
   line-height: 100%;
   font-weight: 700;
   letter-spacing: -1.5px;
+}
+
+.how-to-buy__content {
+  flex-basis: 50%;
+}
+
+.how-to-buy__benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: bold;
 }
 /* #endregion */
 
