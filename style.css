@@ -90,6 +90,7 @@ body {
 
 .main {
   padding: 120px;
+  background-color: #fff;
 }
 
 /* #region recommended */
@@ -216,3 +217,13 @@ body {
 }
 /* #endregion */
 
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: -1;
+  height: 460px;
+  background-image: url(images/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
