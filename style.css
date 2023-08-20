@@ -141,6 +141,12 @@ body {
 /* #endregion */
 
 /* #region categories */
+.categories  {
+  max-width: 1020px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
 .categories__title {
   margin-top: 0;
   margin-bottom: 64px;
@@ -149,6 +155,30 @@ body {
   font-weight: 700;
   letter-spacing: -1.5px;
   text-align: center;
+}
+/* #endregion */
+
+/* #region category */
+.category {
+  margin-bottom: 64px;
+}
+
+.category__photos {
+  display: flex;
+  gap: 3%;
+  margin-bottom: 16px;
+}
+
+.category__title {
+  margin: 0;
+}
+
+.photo-wide {
+  width: 65%;
+}
+
+.photo-square {
+  width: 32%;
 }
 /* #endregion */
 
@@ -162,3 +192,4 @@ body {
   letter-spacing: -1.5px;
 }
 /* #endregion */
+
