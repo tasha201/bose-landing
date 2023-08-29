@@ -112,11 +112,7 @@ body {
   gap: 24px;
 }
 
-@media (max-width: 640px) {
-  .recommended__products {
-    flex-direction: column;
-  }
-}
+
 /* #endregion */
 
 /* #region product */
@@ -184,10 +180,12 @@ body {
 /* #region photo */
 .photo-wide {
   width: 65%;
+  object-fit: cover;
 }
 
 .photo-square {
   width: 32%;
+  object-fit: cover;
 }
 /* #endregion */
 
@@ -237,3 +235,7 @@ body {
   background-size: cover;
 }
 /* #endregion */
+
+.logo {
+  height: 24px;
+}
